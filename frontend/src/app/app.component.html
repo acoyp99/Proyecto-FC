@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <ngb-tabset type="pills" [destroyOnHide]="false" >
+      <ngb-tab title="Ingreso de Texto">
+        <ng-template ngbTabContent>
+          <app-twitter-nlu></app-twitter-nlu>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="Twitter">
+          <ng-template ngbTabContent>
+            <app-cos-nlu></app-cos-nlu>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Archivo">
+          <ng-template ngbTabContent>
+            <app-text-nlu></app-text-nlu>
+          </ng-template>
+        </ngb-tab>
+    </ngb-tabset>
+</div>

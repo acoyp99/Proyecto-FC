@@ -1,0 +1,28 @@
+
+<div class="section-1-container section-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col section-1 section-description wow fadeIn">
+                <h1 style="color:  rgb(248, 249, 250);">Busqueda de textos</h1>
+                <div class="divider-1 wow fadeInUp"><span></span></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group form-group-lg">
+                    <label style="color: rgb(248, 250, 252);">Nombre del texto:</label>
+                    <input class="form-control" type="text" name="name" value="t1.txt" #file>
+                </div>
+                <button type="button" class="btn btn-lg btn-primary" (click)="getFile(file)">Enviar</button>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" >
+                    <div class="card-body">
+                        <label >{{ res_text }}</label>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-lg btn-primary" (click)="analyzeFile()">Analizar</button>
+            </div>
+        </div>
+    </div>
+</div>

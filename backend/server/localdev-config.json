@@ -1,0 +1,15 @@
+{
+  "cos_original_bucket": "ng-app",
+  "cos_normalized_bucket": "ng-app",
+  "cos_endpoint": "s3.us-east.cloud-object-storage.appdomain.cloud",
+  
+  "cos_api_key": "X3S_pHjtvBOnXnz-NbxVjLvxN551Gnl69kRA63nYRE9B",
+  "iam_apikey_description": "Auto-generated for key 3c052430-da1a-4ae8-a312-3f5701cbd4d0",
+  "iam_apikey_name": "Service credentials-1",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/61f4794f439a4f0ea8800c084ade3a4f::serviceid:ServiceId-9765b824-8197-4a5e-8baa-8da77bdcbf0a",
+  "cos_service_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/61f4794f439a4f0ea8800c084ade3a4f:2cfaba43-2abc-4402-be36-43c6214fec55::",
+  "access_key_id": "3c052430da1a4ae8a3123f5701cbd4d0",
+  "secret_access_key": "24ef96bcb6312d303372678cb71db2b3c6f894b434003c3d"
+}
+

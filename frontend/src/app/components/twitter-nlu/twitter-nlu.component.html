@@ -1,0 +1,38 @@
+<div class="section-1-container section-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col section-1 section-description wow fadeIn">
+                <h1 style="color:  rgb(240, 243, 247);">Busqueda por Twitter</h1>
+                <div class="divider-1 wow fadeInUp"><span></span></div>
+            </div>
+        </div>
+        <div class="form-group form-group-lg" >
+            <label style="color:rgb(244, 250, 255);">Entidad o persona a buscar:</label>
+            <input class="form-control" type="word" name="word" value="petroleo" #word>
+            <button type="button" class="btn btn-lg btn-primary" (click)="getTweet(word)">Enviar</button>
+        </div>          
+        <div class="card">
+            <div class="overflow-auto" >
+                <div class="card-body"> 
+                    <div class="card" *ngFor="let tweet of tweets">
+                        <div class="row" >
+                            <div class="col">
+                                {{ tweet.tweet | json }}
+                            </div>
+                            <div class="col" >
+                                <div class="row" *ngFor="let analysis of tweet.analysis">
+                                    <div class="col">
+                                        {{ analysis.type | json }}
+                                    </div>
+                                    <div class="col">
+                                        {{ analysis.text | json }}
+                                    </div>
+                                </div> 
+                            </div>
+                        </div> 
+                    </div>         
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
